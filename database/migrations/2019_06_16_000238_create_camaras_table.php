@@ -15,7 +15,7 @@ class CreateCamarasTable extends Migration
     {
         Schema::create('camaras', function (Blueprint $table) {
             $table->increments('id');
-			$table->smallInteger('lote')->unique(); //Lote é id único
+			$table->integer('lote')->unique(); //Lote é id único
 			$table->char('identificacao', 10)->unique(); //Além dos nomes das câmaras terem largura fixa, uma câmara não pode ter dois usos ao mesmo tempo
             $table->string('tipo', 20);
 			$table->tinyInteger('temperatura');
