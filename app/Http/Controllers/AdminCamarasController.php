@@ -46,11 +46,11 @@
 
 			# OLD START FORM
 			//$this->form = [];
-			//$this->form[] = ["label"=>"Lote","name"=>"lote","type"=>"text","required"=>TRUE,"validation"=>"required|min:1|max:255"];
-			//$this->form[] = ["label"=>"Identificacao","name"=>"identificacao","type"=>"text","required"=>TRUE,"validation"=>"required|min:1|max:255"];
-			//$this->form[] = ["label"=>"Tipo","name"=>"tipo","type"=>"text","required"=>TRUE,"validation"=>"required|min:1|max:255"];
-			//$this->form[] = ["label"=>"Temperatura","name"=>"temperatura","type"=>"text","required"=>TRUE,"validation"=>"required|min:1|max:255"];
-			//$this->form[] = ["label"=>"TempoEsperado","name"=>"tempoEsperado","type"=>"text","required"=>TRUE,"validation"=>"required|min:1|max:255"];
+			//$this->form[] = ['label'=>'Lote','name'=>'lote','type'=>'number','validation'=>'required|min:0|max:99999','width'=>'col-sm-10'];
+			//$this->form[] = ['label'=>'Identificação','name'=>'identificacao','type'=>'select','validation'=>'required|min:1|max:255','width'=>'col-sm-10','dataenum'=>'Câmara 1;Câmara 2;Câmara 3;Câmara 4;Câmara 5'];
+			//$this->form[] = ['label'=>'Tipo','name'=>'tipo','type'=>'select','validation'=>'required|min:1|max:255','width'=>'col-sm-10','dataenum'=>'Câmara Fria;Câmara de Maturação'];
+			//$this->form[] = ['label'=>'Temperatura','name'=>'temperatura','type'=>'radio','validation'=>'required|min:1|max:255|integer','width'=>'col-sm-10','dataenum'=>'15;16;17;18;19;20;21'];
+			//$this->form[] = ['label'=>'Tempo Esperado','name'=>'tempoEsperado','type'=>'text','validation'=>'min:1|max:255','width'=>'col-sm-10'];
 			# OLD END FORM
 
 			/* 
